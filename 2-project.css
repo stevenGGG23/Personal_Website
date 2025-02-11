@@ -1,0 +1,150 @@
+/* General Styles */
+body { 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(240, 26%, 51%, 0.466);
+    color: #333;
+}
+
+/* Navigation Bar */
+nav { 
+    text-decoration: underline;
+    background: linear-gradient(135deg, #112b5b, hsla(267, 57%, 41%, 0.835));
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #4a90e2;
+    color: white;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Sections */
+section { 
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(151, 20, 140, 0.277);
+}
+
+/* About Me */
+#about p {
+    line-height: 1.6;
+}
+
+/* Skills */
+#skills ul { 
+    list-style: none; 
+    background: #f9f7f7;
+    padding: 0;
+}
+#skills li { 
+    background: #eef;  
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Work Experience */
+#experience ul {
+    list-style: none;
+    padding: 0;
+}
+#experience li {
+    background: #eef;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+#experience img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Projects */
+.project {
+    background: #eef;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+#education {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#education h2 {
+    color: hsla(267, 57%, 41%, 0.835);
+} 
+#skills h2 {
+    color: hsla(267, 57%, 41%, 0.835);
+} 
+
+#about h2 {
+    color: hsla(267, 57%, 41%, 0.835);
+} 
+
+#experience h2 {
+    color: hsla(267, 57%, 41%, 0.835);
+} 
+
+#projects h2 {
+    color: hsla(267, 57%, 41%, 0.835);
+} 
+
+#contact h2 {
+    color: hsla(267, 57%, 41%, 0.835);
+}
+
+/* Contact */
+footer {
+    text-align: center;
+    padding: 20px;
+    background:  #5c328e;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
